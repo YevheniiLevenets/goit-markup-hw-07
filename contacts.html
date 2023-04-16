@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSTUDIO</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- modern normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body class="body" data-modal-padding>
+    <!-- HEADER -->
+    <header class="header" data-modal-padding>
+      <div class="container">
+        <a href="./index.html" class="logo link">Web<span class="invers-color">Studio</span></a>
+        <!-- --- -->
+        <div class="menu-backdrop">
+          <div class="close-area" data-menu-close></div>
+          <div class="menu-wrapper">
+            <!-- menu -->
+            <nav class="header-nav">
+              <ul class="header-menu list">
+                <li><a href="./index.html" class="link">Studio</a></li>
+                <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+                <li><a href="./contacts.html" class="link active">Contacts</a></li>
+              </ul>
+            </nav>
+            <!-- menu end-->
+
+            <!-- address -->
+            <address class="address">
+              <ul class="header-contacts list">
+                <li>
+                  <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                </li>
+                <li>
+                  <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+                </li>
+              </ul>
+              <!-- socials-item-icons -->
+              <ul class="socials list">
+                <li class="socials-item">
+                  <a href="#" class="link" target="_blank">
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="link" target="_blank">
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="link" target="_blank">
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="link" target="_blank">
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </address>
+            <!-- address end-->
+          </div>
+        </div>
+
+        <!-- burger button -->
+        <button class="burger" data-menu-open>
+          <svg width="32" height="24">
+            <use href="./images/icons.svg#burger" class="icon-off"></use>
+            <use href="./images/icons.svg#menuClose" class="icon-on"></use>
+          </svg>
+        </button>
+        <!-- burger button end-->
+      </div>
+    </header>
+    <!--header end-->
+
+    <!--MAIN-->
+    <main class="main">
+      <!--section - Hero-->
+      <section class="section section-contacts">
+        <div class="container">
+          <h1 class="title">Page in progress... &#128528;</h1>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-col">
+          <a href="./index.html" class="logo link">Web<span class="invers-color">Studio</span></a>
+          <p class="text">
+            Increase the flow of customers and sales for your business with digital marketing &
+            growth solutions.
+          </p>
+        </div>
+        <div class="footer-col">
+          <p class="event-title">Social media</p>
+          <ul class="socials list">
+            <li class="socials-item">
+              <a href="#" class="link" target="_blank">
+                <svg width="16" height="16"><use href="./images/icons.svg#instagram"></use></svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="#" class="link" target="_blank">
+                <svg width="16" height="16"><use href="./images/icons.svg#twitter"></use></svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="#" class="link" target="_blank">
+                <svg width="16" height="16"><use href="./images/icons.svg#facebook"></use></svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="#" class="link" target="_blank">
+                <svg width="16" height="16"><use href="./images/icons.svg#linkedin"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="event-title">Subscribe</p>
+          <form action="#" class="form" autocomplete="off">
+            <label class="label">
+              <input type="email" class="input" name="email" placeholder="E-mail" />
+            </label>
+            <button type="submit" class="button button-icon">
+              Subscribe<svg width="24" height="24">
+                <use href="./images/icons.svg#subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!--footer end-->
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
+<!-- contacts.html end -->
